@@ -17,12 +17,12 @@ int main() {
     cin >> a >> b;
 
     cout << "Wynik dodawania: " << dodajLiczby(a,b) << endl;
-    int a,b;
+    int d,e;
 
     cout << "Podaj dwie liczby!" << endl;
-    cin >> a >> b;
+    cin >> d >> e;
 
-    cout << "Większa liczba to: " << porownajLiczby(a,b) << endl;
+    cout << "Większa liczba to: " << porownajLiczby(d,e) << endl;
     return 0;
 }
 
